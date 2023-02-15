@@ -8,7 +8,7 @@
 
 
 function shortcut (string) {
-//   const arr = string.split('')
+
     const result = string
     .split('')
     .filter(e =>  (e !='a') && (e != 'e') &&(e !='i') && (e != 'o')&& (e != 'u'))
